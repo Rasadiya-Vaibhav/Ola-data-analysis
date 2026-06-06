@@ -1,0 +1,40 @@
+SQL Questions:
+1. Retrieve all successful bookings:
+
+select * from successfull_bookings;
+
+2. Find the average ride distance for each vehicle type:
+
+select * from ride_distance_avg_view;
+
+3. Get the total number of cancelled rides by customers:
+
+select * from canceled_ride_by_customer;
+
+4. List the top 5 customers who booked the highest number of rides:
+
+select * from highset_bookingrides_customer;
+
+5. Get the number of rides cancelled by drivers due to personal and car-related issues:
+
+select * from cancel_bt_driver_personal_releted_issue;
+
+6. Find the maximum and minimum driver ratings for Prime Sedan bookings:
+
+select * from max_and_min_rating_of_p_s;
+
+7. Retrieve all rides where payment was made using UPI:
+
+select * from upi_payment_id;
+
+8. Find the average customer rating per vehicle type:
+
+select * from c_reating_vehicle_type_per;
+
+9. Calculate the total booking value of rides completed successfully:
+
+select * from totale_of_booking;
+
+10. List all incomplete rides along with the reason:
+
+select * from incomplete_ridea_along_with_reason;
